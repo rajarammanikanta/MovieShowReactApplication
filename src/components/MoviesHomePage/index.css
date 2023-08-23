@@ -1,0 +1,94 @@
+
+
+.view-button{
+    background-color: #2d78fa;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+
+}
+.main-container{
+    min-height: 120vh;
+    flex-wrap: wrap;
+}
+.list-container{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+
+  
+}
+
+@media screen and (max-width:576px){
+    .list-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px){
+    .list-container{
+        display: flex;
+    }
+}
+
+
+.list-item{
+    height: 65vh;
+    width: 20%;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    padding: 30px;
+
+}
+
+
+@media screen and (max-width: 575px){
+    .list-item{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .list-item{
+        width: 45%;
+        height: 45vh;
+    }
+}
+@media screen and (max-width:820px) {
+    .list-item{
+        width: 25%;
+        height: 45vh;
+    }
+}
+@media screen and (max-width:912px) {
+    .list-item{
+        width: 25%;
+        height: 45vh;
+    }
+}
+
+
+.show-image{
+    height: 180px;
+
+}
+.title{
+    margin-top: 6px;
+}

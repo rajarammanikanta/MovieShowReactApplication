@@ -1,0 +1,12 @@
+.footer{
+    background-image: radial-gradient(#2d78fa, #0c4fc4);
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
