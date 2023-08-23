@@ -30,7 +30,7 @@ class Homepage extends Component{
            <Navbar/>
              <div className='home-container'>
         
-                <h1 className='heading'>Welcome to a world of cinematic wonders! Dive into a realm of movie magic with our app, where every click unveils a new adventure on the silver screen</h1>
+                <h1 className='main-heading'>Welcome to a world of cinematic wonders! Dive into a realm of movie magic with our app, where every click unveils a new adventure on the silver screen</h1>
      <div>
      <img src="https://www.dqindia.com/wp-content/uploads/2017/12/movie.jpg" alt="home"/>
      <img src="https://img.freepik.com/premium-psd/3d-render-cinema-ticket-popup-from-smartphone-with-booking-tickets-online_252008-535.jpg?w=2000" alt="ticket"/>
