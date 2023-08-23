@@ -49,6 +49,7 @@ class BookingForm extends Component{
             <button type="submit" className='book-button'>Book Now</button>
          </div>
          
+         
       </form>
              <Footer/>
             </div>
