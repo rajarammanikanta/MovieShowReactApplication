@@ -14,15 +14,29 @@
 .main-container{
     min-height: 120vh;
     flex-wrap: wrap;
+    padding: 50px;
 }
 .list-container{
     list-style-type: none;
     display: flex;
     justify-content: center;
-    flex-wrap:wrap-reverse;
+    flex-wrap:wrap;
     align-items: center;
 
   
+}
+@media screen and (max-width:1280px){
+    .list-container{
+        display: flex;
+        
+        
+    }
+}
+
+@media screen and (max-width:820px){
+    .list-container{
+        display: flex;
+    }
 }
 
 @media screen and (max-width:576px){
@@ -31,58 +45,79 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 }
-@media screen and (max-width:768px){
-    .list-container{
-        display: flex;
-    }
-}
-
 
 .list-item{
-    height: 65vh;
+    height: 50vh;
     width: 20%;
     box-shadow: 0px 4px 16px 0px #bfbfbf;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     padding: 30px;
 
 }
-
-
-@media screen and (max-width: 575px){
+@media screen and (max-width:1280px){
     .list-item{
-        width: 100%;
+        width:27%;
+        height:70vh;
     }
 }
 
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px){
     .list-item{
-        width: 45%;
+        width:27%;
+        height:80vh;
+    }
+}
+
+@media screen and (max-width:912px){
+    .list-item{
+        width: 42%;
         height: 45vh;
     }
 }
-@media screen and (max-width:820px) {
+
+@media screen and (max-width:820px){
     .list-item{
-        width: 25%;
+        width: 42%;
         height: 45vh;
+        
     }
 }
-@media screen and (max-width:912px) {
+
+@media screen and (max-width:768px){
     .list-item{
-        width: 25%;
-        height: 45vh;
+        width: 30%;
+        height: 40vh;
     }
 }
+
+@media screen and (max-width: 576px){
+    .list-item{
+        width: 80%;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+
+
+
+
+
+
+
 
 
 .show-image{
